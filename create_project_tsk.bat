@@ -23,7 +23,7 @@ REM Set the URL of the Git repository
 set gitRepoUrl=https://cube-vn.backlog.com/git/TSK/TSK_TMP.git
 
 REM Set the local directory where you want to clone the repository
-set localDirectory=C:\Users\tandat\Desktop\prcFrm5200
+set localDirectory=C:\Users\tandat\Desktop\TSK
 
 REM Check if the local directory exists; if not, create it
 if not exist "%localDirectory%" (
@@ -76,8 +76,6 @@ echo.
 echo Created and switched to branch %branchName% successfully.
 echo.
 
-echo Create Stucture project ( Controller Folder , DAL Folder , Model Folder , Interface File , View Folder)
-set currentProjectFolder=%localDirectory%\%userInput%\tskCoreSystem\Modules
 setlocal enabledelayedexpansion
 
 :menu
